@@ -2,7 +2,7 @@
 
 This note captures repeatable work patterns before they become formal skills.
 
-## Verification Loop
+## [[Verification Loop]]
 
 Pattern:
 1. Inspect the source of truth.
@@ -20,7 +20,7 @@ Sources:
 - `/Users/earth/Documents/GitHub/ai-dev-office/README.md`
 - `/Users/earth/Documents/GitHub/ai-dev-office/tests/integration/`
 
-## Search First
+## [[Search First]]
 
 Pattern:
 1. Search the repo for the term, contract, route, or task id.
@@ -33,7 +33,7 @@ Useful for:
 - task continuation
 - rules and prompt boundary reviews
 
-## Evidence Required
+## [[Evidence Required]]
 
 Pattern:
 1. Treat outputs, tests, schemas, and docs as evidence surfaces.
@@ -45,7 +45,7 @@ Useful for:
 - dashboard anomaly reviews
 - task closure checks
 
-## Change Impact Analysis
+## [[Change Impact Analysis]]
 
 Pattern:
 1. Identify the layer being changed: framework rule, role prompt, schema, workflow, dashboard, profile, or template.
@@ -69,7 +69,7 @@ Pattern:
 Source:
 - `/Users/earth/Documents/GitHub/ai-dev-office/agents/pm.md`
 
-## Portability Boundary Check
+## [[Portable Core And Profile Overlay|Portability Boundary Check]]
 
 Pattern:
 1. Ask whether the change belongs in portable framework core, target project policy, profile, template, or local config.
@@ -87,4 +87,3 @@ Sources:
 - Dashboard analytics stabilization
 - Portable framework contract review
 - Obsidian project-note extraction
-

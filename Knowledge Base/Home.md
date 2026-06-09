@@ -36,11 +36,10 @@
 
 Extract these from project notes only when there is enough real material to reuse:
 
-- Verification Loop
-- Evidence Required
-- Search First
-- Change Impact Analysis
-- Filesystem Source Of Truth
-- Read-Only Dashboard Boundary
-- Portable Core And Profile Overlay
-
+- [[Verification Loop]]
+- [[Evidence Required]]
+- [[Search First]]
+- [[Change Impact Analysis]]
+- [[Filesystem Source Of Truth]]
+- [[Read-Only Dashboard Boundary]]
+- [[Portable Core And Profile Overlay]]

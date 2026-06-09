@@ -4,7 +4,7 @@ This note captures decisions already visible in the project. Promote an item int
 
 ## Approved Or Operating Decisions
 
-### Filesystem Is The Source Of Truth
+### [[Filesystem Source Of Truth]]
 
 Runtime state lives in `runs/<task-id>/` and dashboard analytics read from those files. The dashboard currently has no database or persistence layer.
 
@@ -12,7 +12,7 @@ Sources:
 - `/Users/earth/Documents/GitHub/ai-dev-office/README.md`
 - `/Users/earth/Documents/GitHub/ai-dev-office/dashboard/README.md`
 
-### Portable Framework Core, Project-Specific Profiles
+### [[Portable Core And Profile Overlay|Portable Framework Core, Project-Specific Profiles]]
 
 The framework core stays generic. Project behavior goes through profiles, local config, target project `AGENTS.md`, or templates.
 
@@ -42,7 +42,7 @@ Fallback runners and manual advisory lanes do not replace reviewer/debugger gate
 Source:
 - `/Users/earth/Documents/GitHub/ai-dev-office/model-routing-codex-first.md`
 
-### Dashboard Is Read-Only
+### [[Read-Only Dashboard Boundary|Dashboard Is Read-Only]]
 
 Dashboard views inspect tasks, logs, metrics, and reports. They do not control tasks.
 
@@ -58,9 +58,8 @@ Source:
 
 ## Candidates For ADR
 
-- Filesystem source of truth vs database-backed state
+- [[Filesystem Source Of Truth|Filesystem source of truth vs database-backed state]]
 - Codex-first with manual advisory lanes
-- Portable core plus profile overlays
-- Read-only dashboard as first dashboard boundary
+- [[Portable Core And Profile Overlay|Portable core plus profile overlays]]
+- [[Read-Only Dashboard Boundary|Read-only dashboard as first dashboard boundary]]
 - Selective parallel execution instead of default parallelism
-
