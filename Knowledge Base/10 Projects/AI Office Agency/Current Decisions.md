@@ -8,6 +8,9 @@ This note captures decisions already visible in the project. Promote an item int
 
 Runtime state lives in `runs/<task-id>/` and dashboard analytics read from those files. The dashboard currently has no database or persistence layer.
 
+ADR:
+- [[ADR-0001 Filesystem Source Of Truth]]
+
 Sources:
 - `/Users/earth/Documents/GitHub/ai-dev-office/README.md`
 - `/Users/earth/Documents/GitHub/ai-dev-office/dashboard/README.md`
@@ -49,6 +52,17 @@ Dashboard views inspect tasks, logs, metrics, and reports. They do not control t
 Source:
 - `/Users/earth/Documents/GitHub/ai-dev-office/dashboard/README.md`
 
+### Dashboard Analytics Still Uses Distributed Read Paths
+
+The dashboard analytics layer is still filesystem-backed, recomputes from `runs/`, and some analytics panels continue to fetch separate endpoints rather than a single consolidated overview/read model.
+
+This is not yet a settled ADR, but it is now active decision pressure because it affects API shape, panel loading behavior, stabilization strategy, and how far the read-only dashboard can evolve before the read model is tightened.
+
+Sources:
+- `/Users/earth/Documents/GitHub/ai-dev-office/dashboard/README.md`
+- `/Users/earth/Documents/GitHub/ai-dev-office/dashboard/server/`
+- `/Users/earth/Documents/GitHub/ai-dev-office/dashboard/shared/`
+
 ### Parallel Work Is Selective
 
 The workflow supports PM-split parallel lanes with `dev` and `dev-2`, but the main pipeline remains PM -> Dev/Dev-2 -> Reviewer -> Done.
@@ -58,8 +72,9 @@ Source:
 
 ## Candidates For ADR
 
-- [[Filesystem Source Of Truth|Filesystem source of truth vs database-backed state]]
+- [[ADR-0001 Filesystem Source Of Truth|Filesystem source of truth vs database-backed state]]
 - Codex-first with manual advisory lanes
 - [[Portable Core And Profile Overlay|Portable core plus profile overlays]]
 - [[Read-Only Dashboard Boundary|Read-only dashboard as first dashboard boundary]]
+- Dashboard analytics consolidated read model vs separate endpoint reads
 - Selective parallel execution instead of default parallelism

@@ -4,6 +4,8 @@
 
 AI Office Agency treats filesystem artifacts as the primary runtime state. Task state, handoffs, decisions, and dashboard analytics are read from files rather than a database.
 
+Formal decision note: [[ADR-0001 Filesystem Source Of Truth]]
+
 ## Current Shape
 
 - Runtime task state: `runs/<task-id>/`
@@ -39,4 +41,4 @@ AI Office Agency treats filesystem artifacts as the primary runtime state. Task 
 - [[Read-Only Dashboard Boundary]]
 - [[Evidence Required]]
 - [[Current Decisions]]
-
+- [[ADR-0001 Filesystem Source Of Truth]]

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "10 Projects/AI Office Agency/Open Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Open Questions"
             }
           }
         ]
@@ -186,18 +186,27 @@
   "active": "15430c3e7f912c50",
   "lastOpenFiles": [
     "Home.md",
-    "10 Projects/AI Office Agency/Prompt Library.md",
-    "10 Projects/AI Office Agency/Project Map.md",
-    "10 Projects/AI Office Agency/Open Questions.md",
-    "10 Projects/AI Office Agency/Reusable Skills.md",
-    "10 Projects/AI Office Agency/Current Decisions.md",
+    "10 Projects/AI Office Agency/ADR-0001 Filesystem Source Of Truth.md",
     "10 Projects/AI Office Agency/Architecture.md",
-    "2026-06-09.md",
-    "Untitled.canvas",
+    "How To Use This Vault.md",
+    "Weekly Review.md",
+    "Source Link Convention.md",
+    "Promotion Rule.md",
+    "Inbox.md",
     "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Welcome.md",
+    "10 Projects/AI Office Agency/Reusable Skills.md",
+    "10 Projects/AI Office Agency/Open Questions.md",
+    "10 Projects/AI Office Agency/Project Map.md",
+    "10 Projects/AI Office Agency/Prompt Library.md",
+    "10 Projects/AI Office Agency/Read-Only Dashboard Boundary.md",
+    "10 Projects/AI Office Agency/Search First.md",
+    "10 Projects/AI Office Agency/Verification Loop.md",
+    "10 Projects/AI Office Agency/Current Decisions.md",
+    "2026-06-09.md",
     "10 Projects/AI Office Agency/Lessons Learned.md",
     "10 Projects/AI Office Agency",
-    "10 Projects",
-    "Welcome.md"
+    "10 Projects"
   ]
 }

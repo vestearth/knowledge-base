@@ -1,5 +1,19 @@
 # AI Office Agency
 
+## Now
+
+- Analytics Stabilization
+- Skill Validator
+- Rules System
+- Obsidian Knowledge Units
+
+## Do Next
+
+- Capture new insight in [[Inbox]]
+- Run or update [[Weekly Review]]
+- Check unresolved work in [[Open Questions]]
+- Review active choices in [[Current Decisions]]
+
 ## Current Focus
 
 - Analytics Stabilization
@@ -7,39 +21,37 @@
 - Rules System
 - Obsidian Knowledge Units
 
-## Project
+## Decision Desk
+
+- [[Current Decisions]]
+- [[ADR-0001 Filesystem Source Of Truth]]
+
+## Working Set
 
 - [[Project Map]]
 - [[Architecture]]
+- [[Prompt Library]]
+- [[Lessons Learned]]
+
+## Knowledge Layer
+
+- [[Reusable Skills]]
+- [[Verification Loop]]
+- [[Evidence Required]]
+- [[Search First]]
+- [[Change Impact Analysis]]
 
 ## Open Questions
 
 - [[Open Questions]]
 
-## Decisions
+## Operating System
 
-- [[Current Decisions]]
+- [[How To Use This Vault]]
+- [[Promotion Rule]]
+- [[Source Link Convention]]
+- [[Weekly Review]]
 
-## Skills
+## Capture Queue
 
-- [[Reusable Skills]]
-
-## Prompts
-
-- [[Prompt Library]]
-
-## Lessons
-
-- [[Lessons Learned]]
-
-## Next Knowledge Units
-
-Extract these from project notes only when there is enough real material to reuse:
-
-- [[Verification Loop]]
-- [[Evidence Required]]
-- [[Search First]]
-- [[Change Impact Analysis]]
-- [[Filesystem Source Of Truth]]
-- [[Read-Only Dashboard Boundary]]
-- [[Portable Core And Profile Overlay]]
+- [[Inbox]]
