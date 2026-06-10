@@ -32,6 +32,10 @@
 - [[Architecture]]
 - [[Prompt Library]]
 - [[Lessons Learned]]
+- [[Shared Lib - Project Map]]
+- [[API Gateway - Project Map]]
+- [[Games Labs Missions - Project Map]]
+- [[Games Labs Game - Project Map]]
 
 ## Knowledge Layer
 
@@ -40,6 +44,9 @@
 - [[Evidence Required]]
 - [[Search First]]
 - [[Change Impact Analysis]]
+- [[Turnover Settlement Flow]]
+- [[Backoffice API Contract Map]]
+- [[Auth To Wallet Missions Bootstrap Flow]]
 
 ## Open Questions
 

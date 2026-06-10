@@ -6,7 +6,36 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "file:Home OR file:Inbox OR file:\"Weekly Review\" OR file:\"How To Use This Vault\" OR file:\"Promotion Rule\" OR file:\"Source Link Convention\"",
+      "color": {
+        "a": 1,
+        "rgb": 13896770
+      }
+    },
+    {
+      "query": "path:\"10 Projects/AI Office Agency\"",
+      "color": {
+        "a": 1,
+        "rgb": 10181046
+      }
+    },
+    {
+      "query": "path:\"10 Projects/API Gateway\" OR path:\"10 Projects/Shared Lib\" OR path:\"10 Projects/Games Labs Missions\" OR path:\"10 Projects/Games Labs Game\"",
+      "color": {
+        "a": 1,
+        "rgb": 5410843
+      }
+    },
+    {
+      "query": "path:\"20 Flows\"",
+      "color": {
+        "a": 1,
+        "rgb": 14724702
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +46,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.8433351973074383,
+  "scale": 1.2414102821370434,
   "close": true
 }
